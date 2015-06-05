@@ -1,0 +1,10 @@
+extends ../layout/layout
+
+block content
+	form(method="post" , action="")
+		p
+			input( name= "title", type= "text" )
+		p
+			textarea( name= "content" )
+		p
+			button(type="submit")= '提交'
